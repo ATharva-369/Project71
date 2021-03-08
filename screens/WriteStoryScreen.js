@@ -25,8 +25,8 @@ export default class WriteScreen extends React.Component {
 
     render() {
         return (
+             <ScrollView >
             <KeyboardAvoidingView>
-            <ScrollView >
                 {/* <Text style={{textAlign:'center',marginTop:'26%',fontSize:30,color:'lightblue'}}>Hi this is write screen</Text> */}
                 <Header
                     backgroundColor={'yellow'}
@@ -76,8 +76,9 @@ export default class WriteScreen extends React.Component {
                 </TouchableOpacity>    
 
 
-            </ScrollView>
             </KeyboardAvoidingView>
+             </ScrollView>
+
         );
     }
 }
